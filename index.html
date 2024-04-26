@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="Holistic Evaluation of Multimodal foundational models">
+  <meta name="keywords" content="HEMM, Multimodal Evaluation, Multimodal Benchmark">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>HEMM: Holistic Evaluation of Multimodal Models</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/favicon.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -42,7 +42,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -52,7 +52,7 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
+      <a class="navbar-item" href="https://www.cs.cmu.edu/~pliang/">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
@@ -80,7 +80,7 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -88,39 +88,39 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">HEMM: Holistic Evaluation of Multimodal Foundation Models</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://www.cs.cmu.edu/~pliang/">Paul Liang</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              <a href="https://akshayg08.github.io/">Akshay Goindani</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <a href="https://www.linkedin.com/in/talhachafekar/">Talha Chafekar</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              <a href="https://haofeiyu.me/">Haofei Yu</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+              <a href="https://l-mathur.github.io/">Leena Mathur</a><sup>1</sup>,
             </span>
-            <span class="author-block">
+            <!-- <span class="author-block">
               <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
             </span>
             <span class="author-block">
               <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
-            </span>
+            </span> -->
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Carnegie Mellon University</span>
+            <span class="author-block"><sup>2</sup>KJSCE</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,7 +129,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -138,7 +138,7 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -146,10 +146,10 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href="https://github.com/pliang279/HEMM"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -158,14 +158,14 @@
                   </a>
               </span>
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                  </a> -->
             </div>
 
           </div>
@@ -175,7 +175,7 @@
   </div>
 </section>
 
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -189,9 +189,9 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 
-
+<!-- 
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
@@ -247,7 +247,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -258,10 +258,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Multimodal foundation models that can holistically process text alongside images, video, audio, and sensory modalities are increasingly becoming leveraged in a range of real-world domains. It is challenging to characterize and study progress in multimodal foundation modeling, given the range of possible modeling decisions, tasks, and downstream domains. In this paper, we introduce Holistic Evaluation of Multimodal Models (HEMM) as a framework to systematically evaluate the capabilities of multimodal foundation models across a set of 3 comprehensive dimensions: basic skills, information flow, and real-world use cases. Basic skills are  internal multimodal abilities required to solve problems, such as learning interactions, fine-grained alignment, multi-step reasoning, and abilities to handle external knowledge. Information flow studies how multimodal content changes during a task through querying, translation, editing, and fusion. 
+            Usecases span  domain-specific challenges introduced in real-world multimedia, affective computing, natural sciences, healthcare, and interactive agent applications.
+            Overall, HEMM includes 29 datasets and enables a comprehensive evaluation of multimodal models. 
+            Using HEMM, our results (1) summarize the performance of individual models across multimodal tasks, and (2) distill broader performance trends regarding different design decisions in multimodal models (e.g., scale, frozen unimodal encoders, adapters, instruction tuning). Our experiments suggest the following promising research directions for the community TODO. HEMM is publicly-available at \url{anon} and encourages community involvement in its expansion.
           </p>
-          <p>
+          <!-- <p>
             Our approach augments neural radiance fields
             (NeRF) by optimizing an
             additional continuous volumetric deformation field that warps each observed point into a
@@ -283,75 +285,114 @@
             images of the same pose at different viewpoints. We show that our method faithfully
             reconstructs non-rigidly deforming scenes and reproduces unseen views with high
             fidelity.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- HEMM image. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
+        <h2 class="title is-3">Overview</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <!-- <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                  <img src="static/hemm/hemm_overall.png" alt="Description of the image">
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+    <!--/ HEMM image. -->
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <!-- <h2 class="title is-3">Results</h2> -->
+        <!-- <div class="results-usecase">
+                  <img src="static/hemm/use_case.png" alt="Description of the image">
+                  <p>Average performance of the models across use cases</p>
+        </div>
+
+        <div class="results-usecase">
+                  <img src="static/hemm/num_total_params.png" alt="Description of the image">
+                  <p>Performance of model vs number of parameters</p>
+        </div> -->
+      </div>
+    </div>
+    
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <div class="results-container">
+          <div class="results-usecase">
+            <img src="static/hemm/use_case.png" alt="Description of the image">
+            <p>Average performance of the models across use cases</p>
+          </div>
+    
+          <div class="results-usecase">
+            <img src="static/hemm/num_total_params.png" alt="Description of the image">
+            <p>Performance of model vs number of parameters</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
-
-<section class="section">
-  <div class="container is-max-desktop">
-
+<!-- <section class="section">
+  <div class="container is-max-desktop">  
     <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+      < -- Visual Effects. -->
+      <!-- <div class="column">
+        
+        <div class="content"> -->
+          <!-- <h2 class="title is-3">Visual Effects</h2> -->
+          <!-- <p>
+            Average performance of the models across use cases
+          </p> -->
+          <!-- <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/dollyzoom-stacked.mp4"
                     type="video/mp4">
-          </video>
+          </video> -->
+          <!-- <div class="results-usecase">
+            <img src="static/hemm/use_case.png" alt="Description of the image">
+            <p>Average performance of the models across use cases</p>
+          </div>
         </div>
-      </div>
+      </div> -->
       <!--/ Visual Effects. -->
 
       <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
+      <!-- <div class="column">
+        <h2 class="title is-3"></h2>
         <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
+          <div class="column content"> -->
+            <!-- <p>
+              Performance of model vs number of parameters
+            </p> -->
+            <!-- <video id="matting-video" controls playsinline height="100%">
               <source src="./static/videos/matting.mp4"
                       type="video/mp4">
-            </video>
+            </video> -->
+            <!-- <div class="results-usecase num_total_params">
+              <img src="static/hemm/num_total_params.png" alt="Description of the image"> -->
+              <!-- <p>Performance of model vs number of parameters</p> -->
+            <!-- </div>
           </div>
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Matting. -->
-
+  <!-- </div> -->
+<!-- </section> -->
     <!-- Animation. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h2 class="title is-3">Animation</h2> -->
 
         <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
@@ -381,18 +422,18 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
+        <br/> -->
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
             Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
             viewpoint such as a stabilized camera by playing back the training deformations.
           </p>
-        </div>
-        <div class="content has-text-centered">
+        </div> -->
+        <!-- <div class="content has-text-centered">
           <video id="replay-video"
                  controls
                  muted
@@ -402,16 +443,16 @@
             <source src="./static/videos/replay.mp4"
                     type="video/mp4">
           </video>
-        </div>
+        </div> -->
         <!--/ Re-rendering. -->
-
+<!-- 
       </div>
-    </div>
+    </div> -->
     <!--/ Animation. -->
 
 
     <!-- Concurrent Work. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
@@ -434,22 +475,17 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Concurrent Work. -->
-
+<!-- 
   </div>
-</section>
+</section> -->
 
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
+    <pre><code></code></pre>
   </div>
 </section>
 
@@ -457,11 +493,11 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link"
+      <!-- <a class="icon-link"
          href="./static/videos/nerfies_paper.pdf">
         <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      </a> -->
+      <a class="icon-link" href="https://github.com/pliang279" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>

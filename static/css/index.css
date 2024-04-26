@@ -99,6 +99,26 @@ body {
     border-radius: 10px !important;
 }
 
+.results-usecase {
+  position: relative;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.num_total_params{
+  height: 200% !important;
+  width: 200% !important;
+}
+
+.results-usecase iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .publication-video iframe {
     position: absolute;
     top: 0;
